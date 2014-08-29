@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4044618C19B0806700E08B30 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4044618B19B0806700E08B30 /* Foundation.framework */; };
+		4044618E19B0806700E08B30 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4044618D19B0806700E08B30 /* CoreGraphics.framework */; };
+		4044619019B0806700E08B30 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4044618F19B0806700E08B30 /* UIKit.framework */; };
+		4044619619B0806700E08B30 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4044619419B0806700E08B30 /* InfoPlist.strings */; };
+		4044619819B0806700E08B30 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4044619719B0806700E08B30 /* main.m */; };
+		4044619C19B0806800E08B30 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4044619B19B0806800E08B30 /* AppDelegate.m */; };
+		4044619E19B0806800E08B30 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4044619D19B0806800E08B30 /* Images.xcassets */; };
+		404461A519B0806800E08B30 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 404461A419B0806800E08B30 /* XCTest.framework */; };
+		404461A619B0806800E08B30 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4044618B19B0806700E08B30 /* Foundation.framework */; };
+		404461A719B0806800E08B30 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4044618F19B0806700E08B30 /* UIKit.framework */; };
+		404461AF19B0806800E08B30 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 404461AD19B0806800E08B30 /* InfoPlist.strings */; };
+		404461B119B0806800E08B30 /* BKZoomViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 404461B019B0806800E08B30 /* BKZoomViewTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		404461A819B0806800E08B30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4044618019B0806700E08B30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4044618719B0806700E08B30;
+			remoteInfo = BKZoomView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4044618819B0806700E08B30 /* BKZoomView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BKZoomView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4044618B19B0806700E08B30 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4044618D19B0806700E08B30 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4044618F19B0806700E08B30 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4044619319B0806700E08B30 /* BKZoomView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BKZoomView-Info.plist"; sourceTree = "<group>"; };
+		4044619519B0806700E08B30 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4044619719B0806700E08B30 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4044619919B0806800E08B30 /* BKZoomView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BKZoomView-Prefix.pch"; sourceTree = "<group>"; };
+		4044619A19B0806800E08B30 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4044619B19B0806800E08B30 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4044619D19B0806800E08B30 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		404461A319B0806800E08B30 /* BKZoomViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BKZoomViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		404461A419B0806800E08B30 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		404461AC19B0806800E08B30 /* BKZoomViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BKZoomViewTests-Info.plist"; sourceTree = "<group>"; };
+		404461AE19B0806800E08B30 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		404461B019B0806800E08B30 /* BKZoomViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BKZoomViewTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4044618519B0806700E08B30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4044618E19B0806700E08B30 /* CoreGraphics.framework in Frameworks */,
+				4044619019B0806700E08B30 /* UIKit.framework in Frameworks */,
+				4044618C19B0806700E08B30 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		404461A019B0806800E08B30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				404461A519B0806800E08B30 /* XCTest.framework in Frameworks */,
+				404461A719B0806800E08B30 /* UIKit.framework in Frameworks */,
+				404461A619B0806800E08B30 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4044617F19B0806700E08B30 = {
+			isa = PBXGroup;
+			children = (
+				4044619119B0806700E08B30 /* BKZoomView */,
+				404461AA19B0806800E08B30 /* BKZoomViewTests */,
+				4044618A19B0806700E08B30 /* Frameworks */,
+				4044618919B0806700E08B30 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4044618919B0806700E08B30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4044618819B0806700E08B30 /* BKZoomView.app */,
+				404461A319B0806800E08B30 /* BKZoomViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4044618A19B0806700E08B30 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4044618B19B0806700E08B30 /* Foundation.framework */,
+				4044618D19B0806700E08B30 /* CoreGraphics.framework */,
+				4044618F19B0806700E08B30 /* UIKit.framework */,
+				404461A419B0806800E08B30 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4044619119B0806700E08B30 /* BKZoomView */ = {
+			isa = PBXGroup;
+			children = (
+				4044619A19B0806800E08B30 /* AppDelegate.h */,
+				4044619B19B0806800E08B30 /* AppDelegate.m */,
+				4044619D19B0806800E08B30 /* Images.xcassets */,
+				4044619219B0806700E08B30 /* Supporting Files */,
+			);
+			path = BKZoomView;
+			sourceTree = "<group>";
+		};
+		4044619219B0806700E08B30 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4044619319B0806700E08B30 /* BKZoomView-Info.plist */,
+				4044619419B0806700E08B30 /* InfoPlist.strings */,
+				4044619719B0806700E08B30 /* main.m */,
+				4044619919B0806800E08B30 /* BKZoomView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		404461AA19B0806800E08B30 /* BKZoomViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				404461B019B0806800E08B30 /* BKZoomViewTests.m */,
+				404461AB19B0806800E08B30 /* Supporting Files */,
+			);
+			path = BKZoomViewTests;
+			sourceTree = "<group>";
+		};
+		404461AB19B0806800E08B30 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				404461AC19B0806800E08B30 /* BKZoomViewTests-Info.plist */,
+				404461AD19B0806800E08B30 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4044618719B0806700E08B30 /* BKZoomView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 404461B419B0806800E08B30 /* Build configuration list for PBXNativeTarget "BKZoomView" */;
+			buildPhases = (
+				4044618419B0806700E08B30 /* Sources */,
+				4044618519B0806700E08B30 /* Frameworks */,
+				4044618619B0806700E08B30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BKZoomView;
+			productName = BKZoomView;
+			productReference = 4044618819B0806700E08B30 /* BKZoomView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		404461A219B0806800E08B30 /* BKZoomViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 404461B719B0806800E08B30 /* Build configuration list for PBXNativeTarget "BKZoomViewTests" */;
+			buildPhases = (
+				4044619F19B0806800E08B30 /* Sources */,
+				404461A019B0806800E08B30 /* Frameworks */,
+				404461A119B0806800E08B30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				404461A919B0806800E08B30 /* PBXTargetDependency */,
+			);
+			name = BKZoomViewTests;
+			productName = BKZoomViewTests;
+			productReference = 404461A319B0806800E08B30 /* BKZoomViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4044618019B0806700E08B30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Bastian Kohlbauer";
+				TargetAttributes = {
+					404461A219B0806800E08B30 = {
+						TestTargetID = 4044618719B0806700E08B30;
+					};
+				};
+			};
+			buildConfigurationList = 4044618319B0806700E08B30 /* Build configuration list for PBXProject "BKZoomView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4044617F19B0806700E08B30;
+			productRefGroup = 4044618919B0806700E08B30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4044618719B0806700E08B30 /* BKZoomView */,
+				404461A219B0806800E08B30 /* BKZoomViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4044618619B0806700E08B30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4044619619B0806700E08B30 /* InfoPlist.strings in Resources */,
+				4044619E19B0806800E08B30 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		404461A119B0806800E08B30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				404461AF19B0806800E08B30 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4044618419B0806700E08B30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4044619C19B0806800E08B30 /* AppDelegate.m in Sources */,
+				4044619819B0806700E08B30 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4044619F19B0806800E08B30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				404461B119B0806800E08B30 /* BKZoomViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		404461A919B0806800E08B30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4044618719B0806700E08B30 /* BKZoomView */;
+			targetProxy = 404461A819B0806800E08B30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4044619419B0806700E08B30 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4044619519B0806700E08B30 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		404461AD19B0806800E08B30 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				404461AE19B0806800E08B30 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		404461B219B0806800E08B30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		404461B319B0806800E08B30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		404461B519B0806800E08B30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BKZoomView/BKZoomView-Prefix.pch";
+				INFOPLIST_FILE = "BKZoomView/BKZoomView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		404461B619B0806800E08B30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BKZoomView/BKZoomView-Prefix.pch";
+				INFOPLIST_FILE = "BKZoomView/BKZoomView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		404461B819B0806800E08B30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BKZoomView.app/BKZoomView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BKZoomView/BKZoomView-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BKZoomViewTests/BKZoomViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		404461B919B0806800E08B30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BKZoomView.app/BKZoomView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BKZoomView/BKZoomView-Prefix.pch";
+				INFOPLIST_FILE = "BKZoomViewTests/BKZoomViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4044618319B0806700E08B30 /* Build configuration list for PBXProject "BKZoomView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				404461B219B0806800E08B30 /* Debug */,
+				404461B319B0806800E08B30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		404461B419B0806800E08B30 /* Build configuration list for PBXNativeTarget "BKZoomView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				404461B519B0806800E08B30 /* Debug */,
+				404461B619B0806800E08B30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		404461B719B0806800E08B30 /* Build configuration list for PBXNativeTarget "BKZoomViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				404461B819B0806800E08B30 /* Debug */,
+				404461B919B0806800E08B30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4044618019B0806700E08B30 /* Project object */;
+}
