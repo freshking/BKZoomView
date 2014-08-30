@@ -19,6 +19,8 @@
 		404461A719B0806800E08B30 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4044618F19B0806700E08B30 /* UIKit.framework */; };
 		404461AF19B0806800E08B30 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 404461AD19B0806800E08B30 /* InfoPlist.strings */; };
 		404461B119B0806800E08B30 /* BKZoomViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 404461B019B0806800E08B30 /* BKZoomViewTests.m */; };
+		404461BC19B0808A00E08B30 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 404461BB19B0808A00E08B30 /* MainViewController.m */; };
+		404461C019B0831400E08B30 /* BKZoomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 404461BF19B0831400E08B30 /* BKZoomView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,10 @@
 		404461AC19B0806800E08B30 /* BKZoomViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BKZoomViewTests-Info.plist"; sourceTree = "<group>"; };
 		404461AE19B0806800E08B30 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		404461B019B0806800E08B30 /* BKZoomViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BKZoomViewTests.m; sourceTree = "<group>"; };
+		404461BA19B0808A00E08B30 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		404461BB19B0808A00E08B30 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		404461BE19B0831400E08B30 /* BKZoomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKZoomView.h; sourceTree = "<group>"; };
+		404461BF19B0831400E08B30 /* BKZoomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKZoomView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +115,9 @@
 			children = (
 				4044619A19B0806800E08B30 /* AppDelegate.h */,
 				4044619B19B0806800E08B30 /* AppDelegate.m */,
+				404461BA19B0808A00E08B30 /* MainViewController.h */,
+				404461BB19B0808A00E08B30 /* MainViewController.m */,
+				404461BD19B082A900E08B30 /* BKZoomView */,
 				4044619D19B0806800E08B30 /* Images.xcassets */,
 				4044619219B0806700E08B30 /* Supporting Files */,
 			);
@@ -142,6 +151,15 @@
 				404461AD19B0806800E08B30 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		404461BD19B082A900E08B30 /* BKZoomView */ = {
+			isa = PBXGroup;
+			children = (
+				404461BE19B0831400E08B30 /* BKZoomView.h */,
+				404461BF19B0831400E08B30 /* BKZoomView.m */,
+			);
+			path = BKZoomView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,7 +257,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				404461C019B0831400E08B30 /* BKZoomView.m in Sources */,
 				4044619C19B0806800E08B30 /* AppDelegate.m in Sources */,
+				404461BC19B0808A00E08B30 /* MainViewController.m in Sources */,
 				4044619819B0806700E08B30 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
