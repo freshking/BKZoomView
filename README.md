@@ -1,9 +1,9 @@
 BKZoomView
 ==========
 
-A UIView that will zoom into its parent view.
+A UIView that will zoom into its parent view. It can be implemented with only three lines of code and is very easy to use. It is optionally drag-able with a customizable zoom scale. 
 
-![alt text](http://imgur.com/9eIAsbe.png "Tinder like sticky header view whick stretches when pulled down")
+![alt text](http://imgur.com/9eIAsbe.png "UIView that will zoom into its parent view")
 
 ##How to
 
