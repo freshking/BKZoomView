@@ -10,9 +10,9 @@ A UIView that will zoom into its parent view. It can be implemented with only th
 Initialize the zoom view anywhere in a view. 
 
     BKZoomView *zoomView = [[BKZoomView alloc] initWithFrame:CGRectMake(0, 280, self.view.frame.size.width, 150)];
-    [_zoomView setZoomScale:2.0];
-    [_zoomView setDragingEnabled:NO];
-    [self.view addSubview:_zoomView];
+    [zoomView setZoomScale:2.0];
+    [zoomView setDragingEnabled:NO];
+    [self.view addSubview:zoomView];
     
 ####Options:
   
