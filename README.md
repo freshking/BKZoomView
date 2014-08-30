@@ -21,7 +21,7 @@ Initialize the zoom view anywhere in a view.
 
 ####Important:
   
-  `[zoomview setNeedsDisplay]` must be called everytime you want to update the zoom view. For example the zoom view is placed over a tableview and you want a live zoom when scrolling, then you must implement this in the `scrollViewDidScroll:` method.
+  `[zoomview setNeedsDisplay]` must be called everytime you want to update the zoom view. For example the zoom view is placed over a UITableView and you want a live zoom when scrolling, then you must implement this in the `scrollViewDidScroll:` method.
   Exception here is when dragging.
 
 For further information please check out the example application.
